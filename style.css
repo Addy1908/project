@@ -1,0 +1,42 @@
+#container{
+    position: relative;
+   
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+    background: url(clk.png) no-repeat;
+    background-size: 100%;
+
+}
+#hour,#minute,#second{
+    position: absolute;
+    border-radius: 6px;
+    transform-origin: bottom;
+    background-color:black;
+}
+#hour{
+    width: 10px;
+    background-color:red;
+    height: 28%;
+    left: 49%;
+    top: 22%;
+   
+}
+    
+#minute{
+    width: 1.7%;
+    height: 33%;
+    left: 50%;
+    top: 16%;
+    opacity: 0.7;
+    background-color:rgb(66, 154, 170);
+    
+}
+#second{
+    width: 0.9%;
+    height: 36%;
+    left: 50%;
+    background-color:black;
+    top: 15%
+}
+ 
